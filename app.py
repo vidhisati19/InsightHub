@@ -142,7 +142,7 @@ if page == "Overview":
 # =========================
 elif page == "Cleaning Report":
 
-    st.header("🧼 Cleaning Report")
+    st.header("Cleaning Report")
 
     qs = quality_summary(df)
     a, b, c, d, e = st.columns(5)
@@ -178,7 +178,7 @@ elif page == "Cleaning Report":
         st.dataframe(df[df.duplicated()].head(20), use_container_width=True)
 
 elif page == "EDA Dashboard":
-    st.header("📈 EDA Dashboard")
+    st.header("EDA Dashboard")
     # --- Compute EDA artifacts once (reuse everywhere)
     ns = numeric_summary(df)
     cs = categorical_summary(df)
@@ -248,7 +248,7 @@ elif page == "EDA Dashboard":
     st.plotly_chart(fig, use_container_width=True)
 
     st.divider()
-    st.subheader("📥 Download Outputs")
+    st.subheader("Download Outputs")
 
     # Generate report HTML
     report_html = generate_eda_report(
@@ -275,7 +275,7 @@ elif page == "EDA Dashboard":
     )
 
 elif page == "Modeling":
-    st.header("🤖 Modeling (Baseline)")
+    st.header("Modeling (Baseline)")
 
     st.caption("Pick a target column. InsightHub will auto-detect regression vs classification and train a simple baseline model.")
 
