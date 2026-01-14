@@ -23,15 +23,20 @@ Web Framework: Streamlit
 Version Control: Git & GitHub
 
 **How to run locally**
+
 -> git clone https://github.com/vidhisati19/insighthub.git
 -> cd insighthub
 -> pip install -r requirements.txt
 -> streamlit run app.py
 
 **Current Status**
+
 InsightHub is an ongoing project. Core data upload, cleaning, and EDA functionality is implemented. The project is designed to be modular and extensible.
 
 **Author**
+
 Vidhi Sati
+
 Computer Science student at the University of Alberta
+
 Interests: Data Science, Analytics, and AI-driven applications
