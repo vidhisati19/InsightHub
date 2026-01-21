@@ -1,5 +1,8 @@
 **InsightHub**
 
+https://insightapp0.streamlit.app
+
+
 InsightHub is a self-serve data analysis and exploration web application that allows users to upload datasets, clean data, explore patterns, and generate insights through an interactive interface. The goal of InsightHub is to make data analysis accessible, structured, and efficient without requiring users to write code for common analytical tasks.
 
 This project focuses on building an end-to-end data analysis workflow, from raw data upload to insight generation, using Python-based data tools and a web interface.
