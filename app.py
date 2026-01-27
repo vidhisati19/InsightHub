@@ -194,7 +194,7 @@ if page == "Overview":
 # ============================================================
 elif page == "Cleaning Report":
 
-    st.header("🧼 Cleaning Report")
+    st.header("Cleaning Report")
 
     # High-level dataset quality summary (counts + memory)
     qs = quality_summary(df)
