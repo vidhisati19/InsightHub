@@ -58,7 +58,7 @@ def infer_and_cast_dates(df: pd.DataFrame, threshold: float = 0.7) -> pd.DataFra
 
 
 def basic_prepare(df: pd.DataFrame) -> pd.DataFrame:
-    # Run your lightweight prep steps in a clean pipeline order
+    # Run lightweight prep steps in a clean pipeline order
     df = drop_header_like_rows(df)
     df = infer_and_cast_dates(df)
     return df
