@@ -1,6 +1,6 @@
 from __future__ import annotations
 import pandas as pd
-from pathlib import Path
+from pathlib import Path  # (not used currently; safe to remove if you want)
 from datetime import datetime
 
 
@@ -14,8 +14,11 @@ def generate_eda_report(
 ) -> str:
     """Return an HTML string for the EDA report."""
 
+    # Timestamp to show when the report was generated
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
 
+    # Build a full HTML page as a single string
+    # Uses pandas .to_html() to render tables quickly
     html = f"""
     <html>
     <head>
